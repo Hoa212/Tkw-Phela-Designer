@@ -100,7 +100,7 @@
   height: 60px;
 }
 .section-nav {
-  position: absolute;
+  position: fixed;
   top: 84px;
   left: 28px;
   width: 262px;
@@ -1522,10 +1522,10 @@
 }
 .link-14721jpg {
   position: absolute;
-  width: calc(100% - 0.3px);
+  width: 289px;
   top: calc(50% - 226.2px);
-  right: 0.4px;
-  left: -0.1px;
+  right: -0.2px;
+  left: 10px;
   border-radius: 19.72px;
   height: 294.8px;
   overflow: hidden;
@@ -1859,7 +1859,7 @@
   height: 39px;
 }
 .header-after-login {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: var(--color-black);
