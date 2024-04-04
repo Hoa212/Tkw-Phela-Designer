@@ -698,7 +698,11 @@
 }
 .ca-hng5 {
   position: relative;
-  font-weight: 500;
+  width: 636px;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    flex-shrink: 0;
 }
 .ca-hng4,
 .v-chng-ti3,
