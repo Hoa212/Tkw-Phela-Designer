@@ -20,7 +20,7 @@
   height: 22.8px;
   overflow: hidden;
 }
-.gi3,
+
 .heading-21 {
   position: absolute;
   display: flex;
@@ -36,16 +36,9 @@
   width: 142px;
   height: 85px;
 }
-.gi3 {
-  top: calc(50% - 12px);
-  left: 0;
-  line-height: 24px;
-  font-weight: 500;
+input[type=submit].gi3, select {
+  font-weight: bold;
   justify-content: center;
-  width: 130px;
-  height: 24px;
-}
-.form-form-input {
   position: absolute;
   width: calc(100% - 652px);
   top: calc(50% + 207.5px);
@@ -53,108 +46,110 @@
   left: 326px;
   border-radius: 38px;
   background: linear-gradient(90deg, #ad8b73, #ceab93);
-  border-bottom: 1px solid var(--color-gainsboro-100);
+  border: 1px solid var(--color-gainsboro-100);
   box-sizing: border-box;
   height: 46px;
   text-align: center;
   font-size: var(--font-size-5xl);
   color: var(--color-white);
 }
-.divplaceholder,
-.h-v-tn {
-  position: absolute;
-  left: 0;
-  height: 21px;
-}
-.h-v-tn {
-  top: 0.1px;
+label[for="h-v-tn"]{
   display: flex;
   align-items: center;
-  width: 106px;
-}
-.divplaceholder {
-  width: 100%;
-  top: 23px;
-  right: 0;
+  width: 115px;
+  position: absolute;
+  left: 60px;
+  height: 21px;
+  top: 180px;
   overflow: hidden;
 }
-.form-form-input1 {
+label[for="s-in-thoi"]{
   position: absolute;
-  width: calc(100% - 120px);
-  top: 192.9px;
-  right: 60px;
-  left: 60px;
-  background-color: var(--color-ivory);
-  border-bottom: 1px solid var(--color-gainsboro-100);
-  box-sizing: border-box;
-  height: 56px;
-}
-.s-in-thoi {
-  position: absolute;
-  top: 0.1px;
-  left: 0;
+  top: 250px;
   display: flex;
   align-items: center;
   width: 115px;
   height: 21px;
-}
-.form-form-input2 {
-  position: absolute;
-  width: calc(100% - 120px);
-  top: 248.9px;
-  right: 60px;
   left: 60px;
-  background-color: var(--color-ivory);
-  border-bottom: 1px solid var(--color-gainsboro-100);
-  box-sizing: border-box;
-  height: 56px;
 }
-.ni-dung2 {
+label[for="email3"]{
   position: absolute;
-  top: 23px;
-  left: 0;
+  top: 320px;
+  display: flex;
+  align-items: center;
+  width: 48.8px;
+  height: 21px;
+  left: 60px;
+}
+label[for="ni-dung2"]{
+  position: absolute;
+  top: 390px;
+  left: 60px;
   display: flex;
   align-items: center;
   width: 77px;
   height: 21px;
 }
-.form-form-textarea {
+input[type=text].h-v-tn, select {
   position: absolute;
   width: calc(100% - 120px);
-  top: 361px;
+  top: 200px;
   right: 60px;
   left: 60px;
+  border: none;
   background-color: var(--color-ivory);
   border-bottom: 1px solid var(--color-gainsboro-100);
   box-sizing: border-box;
-  height: 113px;
+  height: 30px;
+  font-size: 16px;
+}
+input[type=text].s-in-thoi, select {
+  position: absolute;
+  width: calc(100% - 120px);
+  top: 270px;
+  right: 60px;
+  left: 60px;
+  border: none;
+  background-color: var(--color-ivory);
+  border-bottom: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 30px;
+  font-size: 16px;
+}
+input[type=text].email3, select {
+  position: absolute;
+  width: calc(100% - 120px);
+  top: 340px;
+  right: 60px;
+  left: 60px;
+  border: none;
+  background-color: var(--color-ivory);
+  border-bottom: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 30px;
+  font-size: 16px;
+}
+input[type=text].ni-dung2, select{
+  position: absolute;
+  width: calc(100% - 120px);
+  top: 410px;
+  right: 60px;
+  left: 60px;
+  border: none;
+  background-color: var(--color-ivory);
+  border-bottom: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 100px;
   overflow: hidden;
+  font-size: 16px;
 }
-.email3 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  width: 48.8px;
-  height: 21px;
-}
-.form-form-input3 {
-  position: absolute;
-  width: calc(100% - 120px);
-  top: 305px;
-  right: 60px;
-  left: 60px;
-  background-color: var(--color-ivory);
-  border-bottom: 1px solid var(--color-gainsboro-100);
-  box-sizing: border-box;
-  height: 56px;
-}
+
+
 .vui-lng-in {
   position: absolute;
-  top: 135px;
+  top: 125px;
   left: 118px;
-  font-size: var(--font-size-xl);
+  font-size: 18px;
   line-height: 22.86px;
   color: var(--color-tan-100);
   text-align: center;
@@ -162,7 +157,7 @@
   align-items: center;
   justify-content: center;
   width: 580px;
-  height: 50px;
+  height: 30px;
 }
 .divform-left {
   position: absolute;
@@ -533,10 +528,11 @@
   font-weight: 500;
   display: inline-block;
 }
-.input3 {
+input[type=text].ca-hng15, select{
   width: 288px;
   border-radius: var(--br-14xl);
   background-color: var(--color-white);
+  border: 1px solid var(--color-white);
   height: 53px;
   overflow: hidden;
   flex-shrink: 0;
@@ -544,15 +540,9 @@
   padding: var(--padding-lg) var(--padding-3xl);
   box-sizing: border-box;
   z-index: 0;
+  font-size: 14px;
 }
-.email4,
-.input3,
-.sent3 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.sent3 {
+input[type=submit].a-ch-cng3, select {
   width: 85px;
   margin: 0 !important;
   position: absolute;
@@ -568,7 +558,20 @@
   justify-content: center;
   z-index: 1;
   color: var(--color-white);
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
 }
+input[type=submit]:hover {
+    background-color: #222;
+    transition: 0.5s;
+}
+.email4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .email4 {
   justify-content: flex-start;
   position: relative;
