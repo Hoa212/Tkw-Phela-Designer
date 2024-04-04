@@ -101,6 +101,7 @@
   padding: var(--padding-lgi) var(--padding-54xl);
   box-sizing: border-box;
   gap: var(--gap-171xl);
+  /* position: fixed; */
 }
 .mask-group-icon3,
 .slide-icon {

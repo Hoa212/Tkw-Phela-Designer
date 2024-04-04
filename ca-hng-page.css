@@ -876,7 +876,7 @@
   padding: var(--padding-lgi) var(--padding-54xl);
   box-sizing: border-box;
   gap: var(--gap-171xl);
-  /* position: absolute; */
+   /* position: fixed; */
 }
 .before6,
 .njpg-icon {
@@ -884,6 +884,7 @@
   width: 100%;
   right: 0;
   left: 0;
+
 }
 .njpg-icon {
   top: calc(50% - 149px);
@@ -893,8 +894,9 @@
   object-fit: cover;
 }
 .before6 {
+  position:absolute;
   height: 99.67%;
-  top: 0.33%;
+  margin-top: 100px;
   bottom: 0;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.08));
 }

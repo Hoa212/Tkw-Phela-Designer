@@ -127,3 +127,29 @@ a{
   background: var(--color-sienna);
   color: #e5e5e5;
 }
+.p{
+  cursor: pointer;
+}
+
+.trans-color3:hover {
+
+  color: #e86b11;
+  text-shadow: 0 2px 3px #867b7b9c;
+  border-radius: 17px;
+  width: 100%;
+  transform: translateY(-2px);
+  
+}
+
+.list-hover {
+  height: 100%;
+  width: auto;
+}
+
+.list-hover:hover {
+  background: var(--color-sienna);
+  color: #e5e5e5;
+}
+.heading-3{
+  cursor: pointer;
+}
