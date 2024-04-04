@@ -100,7 +100,7 @@
   height: 60px;
 }
 .section-nav {
-  position: fixed;
+  position: absolute;
   top: 84px;
   left: 28px;
   width: 262px;
@@ -1522,10 +1522,10 @@
 }
 .link-14721jpg {
   position: absolute;
-  width: 289px;
+  width: calc(100% - 0.3px);
   top: calc(50% - 226.2px);
-  right: -0.1px;
-  left: 10px;
+  right: 0.4px;
+  left: -0.1px;
   border-radius: 19.72px;
   height: 294.8px;
   overflow: hidden;
@@ -1533,7 +1533,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  /* background-position-x: center; */
 }
 .div29,
 .link-ph9 {
@@ -1860,7 +1859,7 @@
   height: 39px;
 }
 .header-after-login {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   background-color: var(--color-black);
@@ -1963,10 +1962,11 @@
   font-weight: 500;
   display: inline-block;
 }
-.input {
+input[type=text], select{
   width: 288px;
   border-radius: var(--br-14xl);
   background-color: var(--color-white);
+  border: 1px solid var(--color-white);
   height: 53px;
   overflow: hidden;
   flex-shrink: 0;
@@ -1974,15 +1974,9 @@
   padding: var(--padding-lg) var(--padding-3xl);
   box-sizing: border-box;
   z-index: 0;
+  font-size: 14px;
 }
-.email,
-.input,
-.sent {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.sent {
+input[type=submit], select {
   width: 85px;
   margin: 0 !important;
   position: absolute;
@@ -1998,7 +1992,20 @@
   justify-content: center;
   z-index: 1;
   color: var(--color-white);
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
 }
+input[type=submit]:hover {
+    background-color: #222;
+    transition: 0.5s;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .email {
   justify-content: flex-start;
   position: relative;
