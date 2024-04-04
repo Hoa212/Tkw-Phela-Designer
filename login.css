@@ -225,7 +225,7 @@
   gap: var(--gap-3xs);
   width: 100%;
 }
-.check-box-child {
+.check-box-child input {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -240,6 +240,8 @@
   width: 16px;
   position: relative;
   height: 16px;
+  right: 2px;
+  bottom: 2px;
 }
 .remember-me {
   position: relative;

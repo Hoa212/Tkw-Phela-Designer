@@ -127,7 +127,7 @@
   justify-content: flex-start;
   gap: var(--gap-3xs);
 }
-.check-box-item {
+.check-box-item input {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -142,6 +142,8 @@
   width: 16px;
   position: relative;
   height: 16px;
+  right: 2px;
+  bottom: 2px;
 }
 .i-agree-to {
   position: relative;

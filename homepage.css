@@ -107,6 +107,7 @@
   width: 1440px;
   height: 440px;
   object-fit: cover;
+  animation: slide1 5s infinite;
 }
 .mask-group-icon3 {
   position: absolute;
@@ -149,6 +150,8 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+  animation: slide1 5s infinite;
+  overflow-x: hidden;
 }
 .arrows-icon,
 .arrows-icon1 {
@@ -186,10 +189,10 @@
   gap: 2px;
 }
 .slider {
-  width: 1440px;
+  width: 100%;
   position: relative;
   height: 467px;
-  overflow-x: auto;
+  overflow-x: hidden;
   flex-shrink: 0;
 }
 .heroimage {
