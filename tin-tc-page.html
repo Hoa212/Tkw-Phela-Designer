@@ -1297,8 +1297,11 @@
           </div>
           <div class="group-parent3">
             <div class="group-parent4">
-              <div class="user123-group">
-                <b class="user1231">user123...</b>
+              <div class="user123-group dropdown">
+                <b class="user1231 usernameHeader dropbtn"></b>
+                <div class="dropdown-content">
+                  <a class="logout">Logout</a>
+                </div>
                 <img
                   class="account-circle-icon1"
                   alt=""
@@ -1324,7 +1327,7 @@
         </div>
       </div>
     </div>
-
+    <script type="module" src="firebase.js"></script>
     <script>
       var logoImage = document.getElementById("logoImage");
       if (logoImage) {

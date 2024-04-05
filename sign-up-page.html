@@ -27,13 +27,13 @@
             <div class="ellipse-div"></div>
             <img class="close-icon1" alt="" src="./public1/close.svg" />
           </div>
-          <div class="frame-div">
+          <div class="frame-div signup-form">
             <div class="component-1-group">
               <div class="component-11">
                 <div class="component-1-item"></div>
                 <div class="email2">
                   <span>Email</span>
-                  <input type="email" value="" id="email" required>
+                  <input type="email" value="" id="email" name="email" required>
                 </div>
               </div>
               <img class="vector-icon" alt="" src="./public1/vector-1.svg" />
@@ -45,7 +45,7 @@
                 <div class="component-1-item"></div>
                 <div class="email2">
                   <span>Password</span>
-                  <input type="text" value="" id="password" required>
+                  <input type="text" value="" id="password" required name="password">
                 </div>
               </div>
               <img class="frame-child1" alt="" src="./public1/vector-1.svg" />
@@ -56,7 +56,7 @@
               <div class="check-box-group">
                 <div class="check-box1">
                   <div class="check-box-item">
-                    <input type="checkbox" id="myCheckbox" checked />
+                    <input type="checkbox" id="myCheckbox" class="checkBoxRegister"/>
                   </div>
                 </div>
                 <div class="i-agree-to">I agree to the terms & conditions</div>
@@ -65,7 +65,7 @@
           </div>
           <div class="frame-parent1">
             <div class="register-wrapper" id="frameContainer" >
-              <div class="register1" id="register">Register</div>
+              <div class="register1 submitRegisterBtn" id="register">Register</div>
             </div>
             <div
               class="already-have-an-account-login-wrapper"
@@ -83,7 +83,7 @@
             <div class="component-1-item"></div>
             <div class="email2">
               <span>Name</span>
-              <input type="text" value="" id="username" required>
+              <input type="text" value="" id="nameRegister" name="name" required>
             </div>
           </div>
           <img class="frame-child2" alt="" src="./public1/vector-1.svg" />
@@ -101,33 +101,33 @@
 
         <div class="menu-bar1">
           <div class="sn-phm2">
-            <b class="sn-phm3">Sản phẩm</b>
+            <a href="sanpham.html" class="sn-phm3">Sản phẩm</a>
           </div>
           <div class="cu-chuyn-thng-hiu1">
-            <b class="cu-chuyn-thng1">Câu chuyện thương hiệu</b>
+            <a href="cu-chuyn-thng-hiu-page.html" class="cu-chuyn-thng1">Câu chuyện thương hiệu</a>
           </div>
           <div class="tin-tc2">
-            <b class="sn-phm3">Tin tức</b>
+            <a href="tin-tc-page.html" class="sn-phm3">Tin tức</a>
           </div>
           <div class="ca-hng2">
-            <b class="sn-phm3">Cửa hàng</b>
+            <a href="ca-hng-page.html" class="sn-phm3">Cửa hàng</a>
           </div>
           <div class="lin-h2">
-            <b class="sn-phm3">Liên hệ</b>
+            <a href="lin-h-page.html" class="sn-phm3">Liên hệ</a>
           </div>
         </div>
         <div class="login-container" id="frameContainer">
           <div class="login4">
-            <b class="sn-phm3">Login</b>
+            <a href="login.html" class="sn-phm3">Login</a>
           </div>
           <div class="sign-up2">
-            <b class="already-have-an-container">Sign up</b>
+            <a href="sign-up-page.html" class="already-have-an-container">Sign up</a>
           </div>
         </div>
       </div>
     </div>
 
     <script src="sign-up-page.js" type="module"></script>
-
+    <script src="firebase.js" type="module"></script>
   </body>
 </html>

@@ -726,8 +726,11 @@
         </div>
         <div class="group-parent">
           <div class="group-container">
-            <div class="user123-parent">
-              <b class="user123">user123...</b>
+            <div class="user123-parent dropdown">
+              <b class="user123 usernameHeader dropbtn"></b>
+              <div class="dropdown-content">
+                <a class="logout">Logout</a>
+              </div>
               <img
                 class="account-circle-icon"
                 alt=""
@@ -837,6 +840,8 @@
         </div>
       </div>
     </div>
+
+    <script src="firebase.js" type="module"></script>
 
     <script>
       var listItem = document.getElementById("listItem");

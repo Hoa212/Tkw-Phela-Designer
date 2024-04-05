@@ -24,19 +24,19 @@
 
         <div class="menu-bar">
           <div class="sn-phm">
-            <b class="sn-phm1">Sản phẩm</b>
+            <a href="sanpham.html" class="sn-phm1">Sản phẩm</a>
           </div>
           <div class="cu-chuyn-thng-hiu">
-            <b class="cu-chuyn-thng">Câu chuyện thương hiệu</b>
+            <a href="cu-chuyn-thng-hiu-page.html" class="cu-chuyn-thng">Câu chuyện thương hiệu</a>
           </div>
           <div class="tin-tc">
-            <b class="sn-phm1">Tin tức</b>
+            <a href="tin-tc-page.html" class="sn-phm1">Tin tức</a>
           </div>
           <div class="ca-hng">
-            <b class="sn-phm1">Cửa hàng</b>
+            <a href="ca-hng-page.html" class="sn-phm1">Cửa hàng</a>
           </div>
           <div class="lin-h">
-            <b class="sn-phm1">Liên hệ</b>
+            <a href="lin-h-page.html" class="sn-phm1">Liên hệ</a>
           </div>
         </div>
         <div class="login-parent">
@@ -62,13 +62,13 @@
             <div class="frame-child"></div>
             <img class="close-icon" alt="" src="./public1/close.svg" />
           </div>
-          <div class="frame-parent">
+          <div class="frame-parent login-form">
             <div class="component-1-parent">
               <div class="component-1">
                 <div class="component-1-child"></div>
                 <div class="email">
                   <span>Email</span>
-                  <input type="email" value="" id="email" required>
+                  <input type="email" value="" id="email" class="emailLogin" required>
                 </div>
               </div>
               <img class="frame-item" alt="" src="./public1/vector-1.svg" />
@@ -80,7 +80,7 @@
                 <div class="component-1-child"></div>
                 <div class="email">
                   <span>Password</span>
-                  <input type="text" value="" id="password" required>
+                  <input type="text" value="" id="password" class="passwordLogin" required>
                 </div>
               </div>
               <img class="frame-inner" alt="" src="./public1/vector-1.svg" />
@@ -102,7 +102,7 @@
           </div>
           <div class="frame-container">
             <div class="login-wrapper" id="frameContainer">
-              <div class="login3">Login</div>
+              <div class="login3 submitLoginBtn">Login</div>
             </div>
             <div class="dont-have-an-account-registe-wrapper">
               <div class="dont-have-an-container" id="dontHaveAn">
@@ -116,5 +116,6 @@
     </div>
 
     <script src="login.js"></script>
+    <script type="module" src="firebase.js"></script>
   </body>
 </html>
